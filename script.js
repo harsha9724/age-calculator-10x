@@ -39,6 +39,7 @@ else{
   else if(month_input.value==2 && month_input.value%4!=0){
     days=Math.abs(day_input.value-28)
   }
+  alert(`Your Age is ${years} Years ${months} Months ${days} Days.`)
   return result.innerText=`Your Age is ${years} Years ${months} Months ${days} Days.`
 }
 
